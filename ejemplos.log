@@ -1,0 +1,257 @@
+PCNN
+9000
+2020-01-30 21:41:23 INFO     #################################### New Start #####################################
+2020-01-30 21:41:23 INFO     mode: PCNN | nb_epoch: 150 | batch: 64 | opt: adam | lr: 0.0003 | pretrain: True | hidden_unit_size: 128
+2020-01-30 21:41:23 INFO     k_lst: [3 5 7 9] | nb_filters: 200 | emb_dim: 200 | pos_dim: 10 | sent_len: 150 | dropout: 0.3
+2020-01-30 21:41:23 INFO     
+2020-01-30 21:41:23 WARNING  From /home/mjimenez/.conda/envs/nclpnl/lib/python3.7/site-packages/tensorflow_core/python/ops/math_grad.py:1424: where (from tensorflow.python.ops.array_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use tf.where in 2.0, which has the same broadcast rule as np.where
+2020-01-30 21:41:25 WARNING  From /home/mjimenez/.conda/envs/nclpnl/lib/python3.7/site-packages/keras/backend/tensorflow_backend.py:986: The name tf.assign_add is deprecated. Please use tf.compat.v1.assign_add instead.
+
+2020-01-30 21:41:26 WARNING  From /home/mjimenez/.conda/envs/nclpnl/lib/python3.7/site-packages/keras/backend/tensorflow_backend.py:973: The name tf.assign is deprecated. Please use tf.compat.v1.assign instead.
+
+2020-01-30 22:01:31 INFO     ##train##, prec: 0.9809, recall: 0.9946, F1: 0.9877
+2020-01-30 22:01:31 INFO     ##dev##,   prec: 0.7802, recall: 0.8068, F1: 0.7933
+2020-01-30 22:01:35 INFO     ##test##, prec: 0.6806, recall: 0.6068, F1: 0.6416
+
+6000
+
+2020-01-30 21:30:08 WARNING  From /home/mjimenez/.conda/envs/nclpnl/lib/python3.7/site-packages/keras/backend/tensorflow_backend.py:973: The name tf.assign is deprecated. Please use tf.compat.v1.assign instead.
+
+2020-01-30 21:38:16 INFO     ##train##, prec: 0.9729, recall: 0.9784, F1: 0.9757
+2020-01-30 21:38:16 INFO     ##dev##,   prec: 0.8111, recall: 0.7892, F1: 0.8000
+2020-01-30 21:38:19 INFO     ##test##, prec: 0.6454, recall: 0.5293, F1: 0.5816
+
+
+2020-01-30 22:05:30 INFO     #################################### New Start #####################################
+2020-01-30 22:05:30 INFO     mode: PCNN | nb_epoch: 150 | batch: 64 | opt: adam | lr: 0.0003 | pretrain: True | hidden_unit_size: 128
+2020-01-30 22:05:30 INFO     k_lst: [3 5 7 9] | nb_filters: 200 | emb_dim: 200 | pos_dim: 10 | sent_len: 150 | dropout: 0.3
+2020-01-30 22:05:30 INFO     
+2020-01-30 22:05:31 WARNING  From /home/mjimenez/.conda/envs/nclpnl/lib/python3.7/site-packages/tensorflow_core/python/ops/math_grad.py:1424: where (from tensorflow.python.ops.array_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use tf.where in 2.0, which has the same broadcast rule as np.where
+2020-01-30 22:05:33 WARNING  From /home/mjimenez/.conda/envs/nclpnl/lib/python3.7/site-packages/keras/backend/tensorflow_backend.py:986: The name tf.assign_add is deprecated. Please use tf.compat.v1.assign_add instead.
+
+2020-01-30 22:05:33 WARNING  From /home/mjimenez/.conda/envs/nclpnl/lib/python3.7/site-packages/keras/backend/tensorflow_backend.py:973: The name tf.assign is deprecated. Please use tf.compat.v1.assign instead.
+
+2020-01-30 22:19:24 INFO     ##train##, prec: 0.9785, recall: 0.9931, F1: 0.9858
+2020-01-30 22:19:24 INFO     ##dev##,   prec: 0.7594, recall: 0.7892, F1: 0.7740
+2020-01-30 22:19:27 INFO     ##test##, prec: 0.6028, recall: 0.5397, F1: 0.5695
+
+3000
+
+2020-01-30 20:39:51 INFO     #################################### New Start #####################################
+2020-01-30 20:39:51 INFO     mode: PCNN | nb_epoch: 150 | batch: 64 | opt: adam | lr: 0.0003 | pretrain: True | hidden_unit_size: 128
+2020-01-30 20:39:51 INFO     k_lst: [3 5 7 9] | nb_filters: 200 | emb_dim: 200 | pos_dim: 10 | sent_len: 150 | dropout: 0.3
+2020-01-30 20:39:51 INFO     
+2020-01-30 20:48:56 INFO     ##train##, prec: 0.9934, recall: 0.9974, F1: 0.9954
+2020-01-30 20:48:56 INFO     ##dev##,   prec: 0.6933, recall: 0.6341, F1: 0.6624
+2020-01-30 20:48:58 INFO     ##test##, prec: 0.6622, recall: 0.2322, F1: 0.3439
+
+2020-01-30 22:26:43 INFO     #################################### New Start #####################################
+2020-01-30 22:26:43 INFO     mode: PCNN | nb_epoch: 150 | batch: 64 | opt: adam | lr: 0.0003 | pretrain: True | hidden_unit_size: 128
+2020-01-30 22:26:43 INFO     k_lst: [3 5 7 9] | nb_filters: 200 | emb_dim: 200 | pos_dim: 10 | sent_len: 150 | dropout: 0.3
+2020-01-30 22:26:43 INFO     
+2020-01-30 22:26:43 WARNING  From /home/mjimenez/.conda/envs/nclpnl/lib/python3.7/site-packages/tensorflow_core/python/ops/math_grad.py:1424: where (from tensorflow.python.ops.array_ops) is deprecated and will be removed in a future version.
+2020-01-30 22:36:48 INFO     ##train##, prec: 0.9880, recall: 0.9987, F1: 0.9933
+2020-01-30 22:36:48 INFO     ##dev##,   prec: 0.7895, recall: 0.6383, F1: 0.7059
+2020-01-30 22:36:50 INFO     ##test##, prec: 0.6974, recall: 0.2512, F1: 0.3693
+
+RNN
+
+9000 ejemplos
+
+2020-01-30 18:29:06 INFO     
+2020-01-30 18:29:06 INFO     #################################### New Start #####################################
+2020-01-30 18:29:06 INFO     mode: BILSTM | nb_epoch: 20 | batch: 64 | opt: adam | lr: 0.0003 | pretrain: True
+2020-01-30 18:29:06 INFO     rnn_dim: 200 | emb_dim: 200 | pos_dim: 10 | sent_len: 150 | dropout: 0.3
+2020-01-30 18:29:06 INFO     
+2020-01-30 18:29:06 WARNING  From /home/mjimenez/.conda/envs/nclpnl/lib/python3.7/site-packages/tensorflow_core/python/ops/math_grad.py:1424: where (from tensorflow.python.ops.array_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use tf.where in 2.0, which has the same broadcast rule as np.where
+2020-01-30 18:29:08 WARNING  From /home/mjimenez/.conda/envs/nclpnl/lib/python3.7/site-packages/keras/backend/tensorflow_backend.py:986: The name tf.assign_add is deprecated. Please use tf.compat.v1.assign_add instead.
+
+2020-01-30 18:29:08 WARNING  From /home/mjimenez/.conda/envs/nclpnl/lib/python3.7/site-packages/keras/backend/tensorflow_backend.py:973: The name tf.assign is deprecated. Please use tf.compat.v1.assign instead.
+
+2020-01-30 19:44:50 INFO     ##train##, prec: 0.8621, recall: 0.7480, F1: 0.8010
+2020-01-30 19:44:50 INFO     ##dev##,   prec: 0.6895, recall: 0.6040, F1: 0.6439
+2020-01-30 19:45:04 INFO     ##test##, prec: 0.5494, recall: 0.4525, F1: 0.4963
+
+6000
+
+2020-01-30 20:39:56 INFO     #################################### New Start #####################################
+2020-01-30 20:39:56 INFO     mode: BILSTM | nb_epoch: 20 | batch: 64 | opt: adam | lr: 0.0003 | pretrain: True
+2020-01-30 20:39:56 INFO     rnn_dim: 200 | emb_dim: 200 | pos_dim: 10 | sent_len: 150 | dropout: 0.3
+2020-01-30 20:39:56 INFO     
+2020-01-30 20:39:56 WARNING  From /home/mjimenez/.conda/envs/nclpnl/lib/python3.7/site-packages/tensorflow_core/python/ops/math_grad.py:1424: where (from tensorflow.python.ops.array_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use tf.where in 2.0, which has the same broadcast rule as np.where
+2020-01-30 20:39:58 WARNING  From /home/mjimenez/.conda/envs/nclpnl/lib/python3.7/site-packages/keras/backend/tensorflow_backend.py:986: The name tf.assign_add is deprecated. Please use tf.compat.v1.assign_add instead.
+
+2020-01-30 20:39:58 WARNING  From /home/mjimenez/.conda/envs/nclpnl/lib/python3.7/site-packages/keras/backend/tensorflow_backend.py:973: The name tf.assign is deprecated. Please use tf.compat.v1.assign instead.
+
+2020-01-30 21:15:14 INFO     ##train##, prec: 0.7143, recall: 0.4600, F1: 0.5596
+2020-01-30 21:15:14 INFO     ##dev##,   prec: 0.5349, recall: 0.3520, F1: 0.4246
+2020-01-30 21:15:25 INFO     ##test##, prec: 0.4098, recall: 0.2615, F1: 0.3193
+
+
+3000
+
+2020-01-30 21:28:09 INFO     #################################### New Start #####################################
+2020-01-30 21:28:09 INFO     mode: BILSTM | nb_epoch: 20 | batch: 64 | opt: adam | lr: 0.0003 | pretrain: True
+2020-01-30 21:28:09 INFO     rnn_dim: 200 | emb_dim: 200 | pos_dim: 10 | sent_len: 150 | dropout: 0.3
+2020-01-30 21:28:09 INFO     
+2020-01-30 21:28:09 WARNING  From /home/mjimenez/.conda/envs/nclpnl/lib/python3.7/site-packages/tensorflow_core/python/ops/math_grad.py:1424: where (from tensorflow.python.ops.array_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use tf.where in 2.0, which has the same broadcast rule as np.where
+2020-01-30 21:28:11 WARNING  From /home/mjimenez/.conda/envs/nclpnl/lib/python3.7/site-packages/keras/backend/tensorflow_backend.py:986: The name tf.assign_add is deprecated. Please use tf.compat.v1.assign_add instead.
+
+2020-01-30 21:28:12 WARNING  From /home/mjimenez/.conda/envs/nclpnl/lib/python3.7/site-packages/keras/backend/tensorflow_backend.py:973: The name tf.assign is deprecated. Please use tf.compat.v1.assign instead.
+
+2020-01-30 21:48:45 INFO     ##train##, prec: 0.7473, recall: 0.3732, F1: 0.4978
+2020-01-30 21:48:45 INFO     ##dev##,   prec: 0.6154, recall: 0.2857, F1: 0.3902
+2020-01-30 21:48:50 INFO     ##test##, prec: 0.3117, recall: 0.1137, F1: 0.1667
+
+
+
+
+MCCCN
+9000 ejemplos
+
+2020-01-30 15:41:42 INFO     #################################### New Start #####################################
+2020-01-30 15:41:42 INFO     mode: MCCNN | nb_epoch: 200 | batch: 64 | opt: adam | lr: 0.0003 | hidden_unit_size: 128
+2020-01-30 15:41:42 INFO     k_lst: [3 5 7 9] | nb_filters: 100 | emb_dim: 200 | pos_dim: 10 | sent_len: 150 | dropout: 0.25
+2020-01-30 15:41:42 INFO     
+2020-01-30 15:41:42 WARNING  From /home/mjimenez/.conda/envs/nclpnl/lib/python3.7/site-packages/tensorflow_core/python/ops/math_grad.py:1424: where (from tensorflow.python.ops.array_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use tf.where in 2.0, which has the same broadcast rule as np.where
+2020-01-30 15:41:43 WARNING  From /home/mjimenez/.conda/envs/nclpnl/lib/python3.7/site-packages/keras/backend/tensorflow_backend.py:986: The name tf.assign_add is deprecated. Please use tf.compat.v1.assign_add instead.
+
+2020-01-30 15:41:43 WARNING  From /home/mjimenez/.conda/envs/nclpnl/lib/python3.7/site-packages/keras/backend/tensorflow_backend.py:973: The name tf.assign is deprecated. Please use tf.compat.v1.assign instead.
+
+2020-01-30 15:57:28 INFO     ##train##, prec: 0.9573, recall: 0.9876, F1: 0.9722
+2020-01-30 15:57:28 INFO     ##dev##,   prec: 0.7513, recall: 0.8409, F1: 0.7936
+2020-01-30 15:57:33 INFO     ##test##, prec: 0.6608, recall: 0.6234, F1: 0.6416
+
+
+6000
+2020-01-30 16:50:16 INFO     #################################### New Start #####################################
+2020-01-30 16:50:16 INFO     mode: MCCNN | nb_epoch: 30 | batch: 64 | opt: adam | lr: 0.0003 | hidden_unit_size: 128
+2020-01-30 16:50:16 INFO     k_lst: [3 5 7 9] | nb_filters: 100 | emb_dim: 200 | pos_dim: 10 | sent_len: 150 | dropout: 0.25
+2020-01-30 16:50:16 INFO     
+2020-01-30 17:07:03 INFO     ##train##, prec: 0.9708, recall: 0.9914, F1: 0.9810
+2020-01-30 17:07:03 INFO     ##dev##,   prec: 0.7438, recall: 0.7512, F1: 0.7475
+2020-01-30 17:07:08 INFO     ##test##, prec: 0.6674, recall: 0.6046, F1: 0.6345
+
+
+2020-01-30 22:25:06 INFO     #################################### New Start #####################################
+2020-01-30 22:25:06 INFO     mode: MCCNN | nb_epoch: 30 | batch: 64 | opt: adam | lr: 0.0003 | hidden_unit_size: 128
+2020-01-30 22:25:06 INFO     k_lst: [3 5 7 9] | nb_filters: 100 | emb_dim: 200 | pos_dim: 10 | sent_len: 150 | dropout: 0.25
+2020-01-30 22:25:06 INFO     
+2020-01-30 22:49:02 INFO     ##train##, prec: 0.9018, recall: 0.9481, F1: 0.9244
+2020-01-30 22:49:02 INFO     ##dev##,   prec: 0.6979, recall: 0.7746, F1: 0.7342
+2020-01-30 22:49:06 INFO     ##test##, prec: 0.5980, recall: 0.6130, F1: 0.6054
+
+
+3000
+
+2020-01-30 22:08:41 INFO     #################################### New Start #####################################
+2020-01-30 22:08:41 INFO     mode: MCCNN | nb_epoch: 30 | batch: 64 | opt: adam | lr: 0.0003 | hidden_unit_size: 128
+2020-01-30 22:08:41 INFO     k_lst: [3 5 7 9] | nb_filters: 100 | emb_dim: 200 | pos_dim: 10 | sent_len: 150 | dropout: 0.25
+2020-01-30 22:08:41 INFO     
+2020-01-30 22:08:42 WARNING  From /home/mjimenez/.conda/envs/nclpnl/lib/python3.7/site-packages/tensorflow_core/python/ops/math_grad.py:1424: where (from tensorflow.python.ops.array_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use tf.where in 2.0, which has the same broadcast rule as np.where
+2020-01-30 22:08:42 WARNING  From /home/mjimenez/.conda/envs/nclpnl/lib/python3.7/site-packages/keras/backend/tensorflow_backend.py:986: The name tf.assign_add is deprecated. Please use tf.compat.v1.assign_add instead.
+
+2020-01-30 22:08:43 WARNING  From /home/mjimenez/.conda/envs/nclpnl/lib/python3.7/site-packages/keras/backend/tensorflow_backend.py:973: The name tf.assign is deprecated. Please use tf.compat.v1.assign instead.
+
+2020-01-30 22:20:16 INFO     ##train##, prec: 0.9062, recall: 0.9383, F1: 0.9220
+2020-01-30 22:20:16 INFO     ##dev##,   prec: 0.5867, recall: 0.5867, F1: 0.5867
+2020-01-30 22:20:19 INFO     ##test##, prec: 0.6036, recall: 0.3175, F1: 0.4161
+
+
+
+MODELO MCPCNNATTGAUS
+
+
+
+3000 ejemplos
+2020-01-30 13:31:40 INFO     #################################### New Start #####################################
+2020-01-30 13:31:40 INFO     mode: MC_PCNN_ATT | nb_epoch: 50 | batch: 64 | opt: adam | lr: 0.0003 | hidden_unit_size: 128
+2020-01-30 13:31:40 INFO     k_lst: [3 5 7 9] | nb_filters: 128 | emb_dim: 200 | pos_dim: 10 | sent_len: 150 | dropout: 0.3 | GaussNoise: 0.15 | L2: 1e-07 
+2020-01-30 13:31:40 INFO     
+
+2020-01-30 13:31:43 WARNING  From /home/mjimenez/.conda/envs/nclpnl/lib/python3.7/site-packages/keras/backend/tensorflow_backend.py:973: The name tf.assign is deprecated. Please use tf.compat.v1.assign instead.
+
+2020-01-30 13:49:34 INFO     ##train##, prec: 0.8434, recall: 0.8987, F1: 0.8702
+2020-01-30 13:49:34 INFO     ##dev##,   prec: 0.6573, recall: 0.6912, F1: 0.6738
+2020-01-30 13:49:42 INFO     ##test##, prec: 0.6929, recall: 0.4171, F1: 0.5207
+
+
+
+
+2020-01-30 14:46:53 WARNING  From /home/mjimenez/.conda/envs/nclpnl/lib/python3.7/site-packages/keras/backend/tensorflow_backend.py:973: The name tf.assign is deprecated. Please use tf.compat.v1.assign instead.
+
+2020-01-30 15:02:39 INFO     ##train##, prec: 0.7947, recall: 0.8782, F1: 0.8343
+2020-01-30 15:02:39 INFO     ##dev##,   prec: 0.5984, recall: 0.5935, F1: 0.5959
+2020-01-30 15:02:48 INFO     ##test##, prec: 0.5704, recall: 0.3839, F1: 0.4589
+
+
+
+6000 ejemplos
+
+020-01-30 13:31:43 INFO     #################################### New Start #####################################
+2020-01-30 13:31:43 INFO     mode: MC_PCNN_ATT | nb_epoch: 50 | batch: 64 | opt: adam | lr: 0.0003 | hidden_unit_size: 128
+2020-01-30 13:31:43 INFO     k_lst: [3 5 7 9] | nb_filters: 128 | emb_dim: 200 | pos_dim: 10 | sent_len: 150 | dropout: 0.3 | GaussNoise: 0.15 | L2: 1e-07 
+2020-01-30 13:31:43 INFO     
+2020-01-30 13:31:43 WARNING  From /home/mjimenez/.conda/envs/nclpnl/lib/python3.7/site-packages/tensorflow_core/python/ops/math_grad.py:1424: where (from tensorflow.python.ops.array_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use tf.where in 2.0, which has the same broadcast rule as np.where
+2020-01-30 13:31:45 WARNING  From /home/mjimenez/.conda/envs/nclpnl/lib/python3.7/site-packages/keras/backend/tensorflow_backend.py:986: The name tf.assign_add is deprecated. Please use tf.compat.v1.assign_add instead.
+
+2020-01-30 13:31:46 WARNING  From /home/mjimenez/.conda/envs/nclpnl/lib/python3.7/site-packages/keras/backend/tensorflow_backend.py:973: The name tf.assign is deprecated. Please use tf.compat.v1.assign instead.
+
+2020-01-30 14:29:18 INFO     ##train##, prec: 0.9688, recall: 0.9946, F1: 0.9815
+2020-01-30 14:29:18 INFO     ##dev##,   prec: 0.7697, recall: 0.8669, F1: 0.8154
+2020-01-30 14:29:36 INFO     ##test##, prec: 0.5599, recall: 0.7238, F1: 0.6314
+
+
+
+6000 ejemplos
+
+2020-01-30 12:19:32 INFO     
+2020-01-30 12:19:32 INFO     #################################### New Start #####################################
+2020-01-30 12:19:32 INFO     mode: MC_PCNN_ATT | nb_epoch: 50 | batch: 64 | opt: adam | lr: 0.0003 | hidden_unit_size: 128
+2020-01-30 12:19:32 INFO     k_lst: [3 5 7 9] | nb_filters: 128 | emb_dim: 200 | pos_dim: 10 | sent_len: 150 | dropout: 0.3 | GaussNoise: 0.15 | L2: 1e-07 
+2020-01-30 12:19:32 INFO     
+2020-01-30 12:19:32 WARNING  From /home/mjimenez/.conda/envs/nclpnl/lib/python3.7/site-packages/tensorflow_core/python/ops/math_grad.py:1424: where (from tensorflow.python.ops.array_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use tf.where in 2.0, which has the same broadcast rule as np.where
+2020-01-30 12:19:34 WARNING  From /home/mjimenez/.conda/envs/nclpnl/lib/python3.7/site-packages/keras/backend/tensorflow_backend.py:986: The name tf.assign_add is deprecated. Please use tf.compat.v1.assign_add instead.
+
+2020-01-30 12:19:35 WARNING  From /home/mjimenez/.conda/envs/nclpnl/lib/python3.7/site-packages/keras/backend/tensorflow_backend.py:973: The name tf.assign is deprecated. Please use tf.compat.v1.assign instead.
+
+2020-01-30 13:23:08 INFO     ##train##, prec: 0.8136, recall: 0.9337, F1: 0.8695
+2020-01-30 13:23:08 INFO     ##dev##,   prec: 0.6630, recall: 0.8362, F1: 0.7396
+2020-01-30 13:23:24 INFO     ##test##, prec: 0.5254, recall: 0.6485, F1: 0.5805
+
+
+9000 ejemplos
+
+
+2020-01-30 12:19:44 INFO     #################################### New Start #####################################
+2020-01-30 12:19:44 INFO     mode: MC_PCNN_ATT | nb_epoch: 50 | batch: 64 | opt: adam | lr: 0.0003 | hidden_unit_size: 128
+2020-01-30 12:19:44 INFO     k_lst: [3 5 7 9] | nb_filters: 128 | emb_dim: 200 | pos_dim: 10 | sent_len: 150 | dropout: 0.3 | GaussNoise: 0.15 | L2: 1e-07 
+2020-01-30 12:19:44 INFO     
+2020-01-30 12:19:45 WARNING  From /home/mjimenez/.conda/envs/nclpnl/lib/python3.7/site-packages/tensorflow_core/python/ops/math_grad.py:1424: where (from tensorflow.python.ops.array_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use tf.where in 2.0, which has the same broadcast rule as np.where
+2020-01-30 12:19:47 WARNING  From /home/mjimenez/.conda/envs/nclpnl/lib/python3.7/site-packages/keras/backend/tensorflow_backend.py:986: The name tf.assign_add is deprecated. Please use tf.compat.v1.assign_add instead.
+
+2020-01-30 12:19:48 WARNING  From /home/mjimenez/.conda/envs/nclpnl/lib/python3.7/site-packages/keras/backend/tensorflow_backend.py:973: The name tf.assign is deprecated. Please use tf.compat.v1.assign instead.
+
+2020-01-30 13:24:00 INFO     ##train##, prec: 0.9571, recall: 0.9874, F1: 0.9720
+2020-01-30 13:24:00 INFO     ##dev##,   prec: 0.7971, recall: 0.8424, F1: 0.8191
+2020-01-30 13:24:24 INFO     ##test##, prec: 0.6591, recall: 0.6915, F1: 0.6749
